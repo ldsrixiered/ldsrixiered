@@ -41,4 +41,11 @@ footer p a:hover {
 footer {
     background-color: gray;
 }
+main {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
 
