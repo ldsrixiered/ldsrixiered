@@ -1,0 +1,44 @@
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+header {
+    background-color: gray;
+}
+
+nav a:hover {
+    background-color: black;
+}
+.icon {
+    width: 80px;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    border: 3px solid lightgray;
+    padding: 10px;
+  }
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: line-through;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: gray;
+}
+
