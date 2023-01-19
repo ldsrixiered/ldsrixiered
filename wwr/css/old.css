@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Noto+Serif:ital@1&family=Roboto:wght@100&display=swap');
 
 .home-title {
@@ -52,34 +53,6 @@ nav a{
 }
 
 body {
-    background-color: #fcfbfb; 
-}
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
-}
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}    
-.icon {
-    width: 80px;
-}
- 
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}    
-footer p {
-    font-size: 1.2em;
-}    
-footer p a:hover {
-    text-decoration: underline;
-}  
-body {
     background-color: rgb(255, 255, 255);
 }
 .card-img {
@@ -88,12 +61,54 @@ body {
 main section img {
     box-sizing: border-box;
 }
+header {
+    background-color: rgb(85, 78, 78);
+    padding: 100;
+}
+
+nav a:hover {
+    background-color: black;
+}
+.icon {
+    width: 80px;
+}
+.msg{
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+footer{
+    padding: 25px 50px;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    border: 3px solid rgb(15, 14, 14);
+    padding: 10px;
+  }
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: line-through;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+
+
+
+footer {
+    background-color: gray;
+}
+main {
+    text-align: center;
+}
+
 div {
     text-align: center;
 }
-section{
-    text-align: center;
-}
-footer{
-    background-color: #7d836c;
-}
+
