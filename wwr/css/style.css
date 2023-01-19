@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Noto+Serif:ital@1&family=Roboto:wght@100&display=swap');
 
 .home-title {
-    font-family: 'DM Serif', 'roboto', 'Noto Serif';
+    font-family: 'roboto', 'DM Serif', 'Noto Serif';
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg {
@@ -51,9 +52,7 @@ nav a{
     height: 725px;
 }
 
-body {
-    background-color: #fcfbfb; 
-}
+
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -78,7 +77,8 @@ footer p {
 }    
 footer p a:hover {
     text-decoration: underline;
-}  
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -96,4 +96,8 @@ section{
 }
 footer{
     background-color: #7d836c;
+    margin-top: 200px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
