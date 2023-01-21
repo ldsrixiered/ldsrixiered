@@ -56,9 +56,7 @@ nav a{
 header {
     background-color:rgba(20,30,13, .7);
 }
-nav a:hover {
-    background-color: black;
-}
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
@@ -85,8 +83,9 @@ body {
 .card-img {
     border: 10px solid #d9c2a3;
 }
-main section img {
-    box-sizing: border-box;
+#background {
+    height: 725px;
+    background-color: #d9c2a3;
 }
 div {
     text-align: center;
@@ -98,6 +97,6 @@ footer{
     background-color: #7d836c;
     margin-top: 200px;
 }
-.rivers-card, .camping-card, .rapids-card{
+section{
     margin: 200px 0;
-}
+    }
