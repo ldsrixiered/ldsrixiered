@@ -7,9 +7,10 @@
   grid-gap: 20px;
 }
 .red1 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/3;
 
 } 
 .green1 {
@@ -24,9 +25,10 @@
   background-color: gold; 
 } 
 .blue1 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 1/3;
 } 
 /* Activity 2 styles */ 
 .content2 {
