@@ -3,6 +3,8 @@ header{
     margin: 10px;
 }
 
-.home{
-    padding: 5px;
+nav a:hover{
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
