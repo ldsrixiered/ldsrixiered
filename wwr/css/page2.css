@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=DM+Serif+Text:ital@1&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+
+.home-title {
+    font-family: 'roboto', 'DM Serif', 'Cover By Your Grace';
+    font-size: 25px;
+    margin-top: 10px;
+    color: #6f7364;
+}
+
+
+
+body{
+    background-color: #204B57;
+    font-family: 'DM Serif', 'Roboto' , 'Noto Serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #204B57;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
