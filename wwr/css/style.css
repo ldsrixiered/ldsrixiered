@@ -126,6 +126,7 @@ section{
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
     
     
 }
@@ -171,10 +172,9 @@ section{
    
 }
 .rapid-card{
-    grid-column-start: 8;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column: 8/10;
+    grid-row: 2/3;
+    
    
 }
 
@@ -194,9 +194,8 @@ section{
     
   }
 #background {
-    /* height: 725px; */
     background-color: #de9466;
-    /* display: none; */
     grid-column: 1/11;
-    grid-row: 4-9;
+    grid-row: 4/9;
 }
+
