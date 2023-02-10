@@ -180,7 +180,7 @@ section{
 .mountain{
     width: 100%;
     grid-column: 2/7;
-    grid-row: 5/8;
+    grid-row: 6/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg {
