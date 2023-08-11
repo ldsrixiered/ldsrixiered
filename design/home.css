@@ -70,6 +70,9 @@ span{
   margin: 30px 0;
   border-radius: 5px;
 }
+.rex a:hover{
+  background-color: brown;
+}
 
 .images{
   width: 45%;
