@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo part 2</title>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;1,200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+
+
+    ul {
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        list-style: none;
+    
+    }
+
+    ul li:first-child {
+        color: blueviolet;
+    }
+
+    ul li:last-child{
+        color: brown;
+    }
+
+    ul li:nth-child(3)::first-letter {
+        color: greenyellow;
+        font-size: 150px;
+    }
+
+    ul{
+        border: 10px rgba(190, 30, 30, 0.76) solid;
+        margin: 50px;
+    }
+
+    ul li:nth-child(2) {
+        padding: 25px 25px;
+
+    }
+</style>
+
+</head>
+<body>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+
+</body>
+</html>

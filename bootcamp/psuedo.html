@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+
+
+       a:link {
+        font-size: 45px;
+        text-decoration: none;
+        color: rgb(144, 144, 0);
+        font-family: 'Caveat Brush', cursive;
+        
+        
+       }
+/* 
+       this will remail the link color  */
+       a:visited{
+        color: brown;
+       }
+
+/* if you put the arow this will change the color  */
+       a:hover{
+        color: aqua;
+       }
+
+/* this while you hold click it with change here */
+       a:active{
+        color: blueviolet;
+       }
+       
+       .dropdown-content a{
+        display: none;
+       }
+
+       .dropdown:hover .dropdown-content a{
+        display: block;
+       }
+
+       body{
+        text-align: center;
+       }
+       a::first-letter{
+        font-size: 80px;
+        color: goldenrod;
+        font-family: 'Caveat Brush', cursive;
+        font-style: italic;
+       }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <a href="https://www.google.com/">Search here</a>
+    <div class="dropdown">
+        <a href="#">about</a>
+        <div class="dropdown-content">
+            <a href="#">Service</a>
+            <a href="#">Expirence</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

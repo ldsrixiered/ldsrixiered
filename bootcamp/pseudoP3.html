@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo | Part 3</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Caveat Brush', cursive;
+        }
+/* this one is using when you want to change color of the first latter */
+
+        h1::first-letter{
+            font-size: 100px;
+            font-style: italic;
+            color: brown;
+        }
+
+        h1::before{
+            content: "this is "
+        }
+
+        h1::after{
+            content: " of the website";
+        }
+
+      
+</style>
+
+<body>
+
+    <h1>Heading</h1>
+    
+</body>
+</html>
